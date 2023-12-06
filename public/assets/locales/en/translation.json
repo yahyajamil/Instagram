@@ -1,0 +1,22 @@
+{
+    "language" : "English",
+    "signTitle" : "Sign up • Instagram",
+    "logTitle" : "Login • Instagram",
+    "logEmail" : "Phone number, username ,or email",
+    "password" : "Password",
+    "logButton" : "Log in",
+    "signButton" : "Sign up",
+    "facebook" : "Log in with Facebook",
+    "forgetPass" : "Forgot password?",
+    "SignMessage" : "Don't have an account?",
+    "useApp" : "Get the app.",
+    "signText" : "Sign up to see photos and videos from your friends.",
+    "signEmail" : "Phone Number or Email",
+    "Name" : "Full Name",
+    "username" : "Username",
+    "infoText" : "People who use our service may have uploaded your contact information to Instagram. Learn More",
+    "policyText" : "By signing up, you agree to our Terms , Privacy Policy and Cookies Policy .",
+    "logMessage" : "Have an account?",
+    "showBtn" : "Show",
+    "hideBtn" : "Hide"
+}
