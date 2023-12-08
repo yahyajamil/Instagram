@@ -1,0 +1,22 @@
+{
+    "language" : "Español (España)",
+    "signTitle" : "Registrarte • Instagram",
+    "logTitle" : "Iniciar sesión • Instagram",
+    "logEmail" : "Teléfono, usuario o correo electrónico",
+    "password" : "Contraseña",
+    "logButton" : "Entrar",
+    "signButton" : "Regístrate",
+    "facebook" : "Iniciar sesión con Facebook",
+    "forgetPass" : "¿Has olvidado la contraseña?",
+    "SignMessage" : "¿No tienes una cuenta?",
+    "useApp" : "Descarga la app.",
+    "signText" : "Regístrate para ver fotos y vídeos de tus amigos.",
+    "signEmail" : "Número de móvil o correo electrónico",
+    "Name" : "Nombre completo",
+    "username" : "Nombre de usuario",
+    "infoText" : "Es posible que los usuarios de nuestro servicio hayan subido tu información de contacto en Instagram. Más información",
+    "policyText" : "Al registrarte, aceptas nuestras Condiciones, nuestra Política de privacidad y nuestra Política de cookies.",
+    "logMessage" : "¿Tienes una cuenta?",
+    "showBtn" : "Mostrar",
+    "hideBtn" : "Ocultar"
+}
