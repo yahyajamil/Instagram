@@ -22,8 +22,9 @@ i18n
       caches: ['cookie']
     },
     backend: {
-  loadPath: process.env.PUBLIC_URL + '/assets/locales/{{lng}}/translation.json',
+  loadPath: `${process.env.PUBLIC_URL}/assets/locales/{{lng}}/translation.json`,
 },
+
     react: { useSuspense: false }
   })
   .then(() => {
