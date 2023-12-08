@@ -22,8 +22,13 @@ i18n
       caches: ['cookie']
     },
     backend: {
-  loadPath: `${process.env.PUBLIC_URL}/assets/locales/{{lng}}/translation.json`,
+  loadPath: (lng) => {
+    const path = `${process.env.PUBLIC_URL}/assets/locales/${lng}/translation.json`;
+    console.log('Constructed load path:', path);
+    return path;
+  },
 },
+
 
     react: { useSuspense: false }
   })
