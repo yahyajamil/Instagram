@@ -85,7 +85,7 @@ export default function LogInForm(props) {
 
                             <div className="facebook">
                                 <a href="#">
-                                    <img src="image/Facebook_logo.png'" width="16" height="16" />
+                                    <img src="image/Facebook_logo.png" width="16" height="16" />
                                     <span>{t('facebook')}</span>
                                 </a>
                             </div>
