@@ -23,7 +23,7 @@ i18n
     },
     backend: {
   loadPath: (lng) => {
-    const path = `${process.env.PUBLIC_URL}/assets/locales/${lng}/translation.json`;
+    const path = '/assets/locales/en/translation.json';
     console.log('Constructed load path:', path);
     return path;
   },
