@@ -23,4 +23,8 @@ i18n
     react: { useSuspense: false },
   });
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <App />
+);
 
