@@ -20,8 +20,8 @@ i18n
       caches: ['cookie']
     },
     backend: {
-      loadPath: '/assets/locales/en/translation.json',
-    },
+  loadPath: '/Instagram/assets/locales/{{lng}}/translation.json',
+},
 },
     react: { useSuspense: false }
   })
