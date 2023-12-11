@@ -4,8 +4,6 @@ import i18n from "i18next";
 import {initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
-import { HashRouter as Router } from 'react-router-dom';
-
 import App from './Component/App';
 import './Component/style.css';
 
@@ -22,14 +20,9 @@ i18n
       caches: ['cookie']
     },
     backend: {
-  loadPath: (lng) => {
-    const path = '/assets/locales/en/translation.json';
-    console.log('Constructed load path:', path);
-    return path;
-  },
+      loadPath: '/assets/locales/en/translation.json',
+    },
 },
-
-
     react: { useSuspense: false }
   })
   .then(() => {
