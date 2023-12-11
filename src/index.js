@@ -15,30 +15,20 @@ i18n
   .use(HttpApi)
   .init({
     fallbackLng: "en",
-    detection: {
+    detection : {
       order: ['path', 'htmlTag', 'cookie', 'localStorage', 'subdomain'],
       caches: ['cookie']
     },
     backend: {
-  loadPath: '/Instagram/assets/locales/{{lng}}/translation.json',
-},
-},
-    react: { useSuspense: false }
-  })
-  .then(() => {
-    console.log('i18n initialized successfully!');
-  })
-  .catch(error => {
-    console.error('Error initializing i18n:', error);
+      loadPath: '/assets/locales/{{lng}}/translation.json',
+    },
+    react: { useSuspense : false}
   });
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router>
-        <App />
-    </Router>
+    <App />
 );
 
  
